@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel", "build"] 
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dual_autodiff"
+description = "A Python package that performs automatic differentiation using dual numbers."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Haya Ejjawi", email = "he308@cam.ac.uk" }]
+version = '0.0.8'
+keywords = ["dual", "automatic differentiation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries"
+]
+
+dependencies = [ ]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+"dual_autodiff" = []
+
+
+[project.scripts]
+dual_autodiff = "dual_autodiff.main:main"

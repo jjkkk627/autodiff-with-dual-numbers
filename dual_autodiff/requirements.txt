@@ -1,0 +1,12 @@
+sphinx>=7
+sphinx-rtd-theme>=1.0
+readthedocs-sphinx-ext>=2.1
+nbsphinx==0.8.6
+ipython
+Pygments==2.15.0
+sphinxcontrib-bibtex>=2.1
+sphinxcontrib-svg2pdfconverter
+sphinx-gallery
+numpy 
+matplotlib
+pytest
