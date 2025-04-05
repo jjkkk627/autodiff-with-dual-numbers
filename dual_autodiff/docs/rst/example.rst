@@ -11,6 +11,6 @@ Notebook Example
 .. toctree::
    :maxdepth: 1
 
-   ../Question_5
+   ../diff_comparison
 
    

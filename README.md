@@ -18,7 +18,7 @@ Install the required packages for running tests and building documentation in th
 
 To install the package, follow these steps. Ensure you have Python 3.9 or higher installed. 
 
-1- **Upgrade `pip`**: Ensure you have the latest version of pip 24.3.1 installed in your environment.
+1- **Upgrade `pip`**: Ensure you have the latest version of pip installed in your environment.
     You can upgrade pip by running the command:
 
  ```bash
@@ -68,13 +68,10 @@ The documentation can be viewed by opening `docs/build/html/index.html` in a web
 
 The `dual_autodiff.ipynb` Jupyter notebook located in `docs` folder, includes a tutorial on how to use the `dual_autodiff` package, as well as a comparison between the pure Python package and its Cythonized version `dual_autodiff_x`.
 
-## Question_5 Notebook
+## Analytical vs Numerical vs Automatic Differentiation
 
-The Jupyter notebook `Question_5.ipynb` located in `docs` folder provides a worked example on how to use dual numbers in automatic differentiation. It offers a comparison between the analytical derivative, numerical derivative, and automatic differentiation using dual numbers.
+The Jupyter notebook `diff_comparison.ipynb` located in `docs` folder provides a worked example on how to use dual numbers in automatic differentiation. It offers a comparison between the analytical derivative, numerical derivative, and automatic differentiation using dual numbers.
 
-## Report 
-
-- The report is located in the `report` folder.
 
 ## Usage
 The package allows you to define dual numbers and perform various operations. Here is an example:
@@ -92,6 +89,3 @@ print(x * y)      # Multiplication: Dual(real=6, dual=7)
 print(x.sin())    # Output: Dual(real=0.909297, dual=-0.416147)
 
 ```
-## Declaration of Use of AI Tools
-
-No auto-generation tools were used for developing code in this project. 
