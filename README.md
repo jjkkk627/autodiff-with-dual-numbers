@@ -89,3 +89,6 @@ print(x * y)      # Multiplication: Dual(real=6, dual=7)
 print(x.sin())    # Output: Dual(real=0.909297, dual=-0.416147)
 
 ```
+## Acknowledgments
+
+- This project was originally developed as part of a graduate-level research computing course at the University of Cambridge.
