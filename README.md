@@ -5,6 +5,7 @@ The **dual_autodiff** is a Python package that performs operations on dual numbe
 The **dual_autodiff_x** is the Cythonized version of the **dual_autodiff** package, to which two wheels are provided in the `wheels`folder.
 - The wheels are for Python versions 3.10 and 3.11 on a 64-bit Linux platform.
 
+---
 ## First Step 
 
 Install the required packages for running tests and building documentation in the `requirements.txt` file with:
@@ -13,7 +14,7 @@ Install the required packages for running tests and building documentation in th
  pip install -r requirements.txt
  ```
 
-
+---
 ## Installation
 
 To install the package, follow these steps. Ensure you have Python 3.9 or higher installed. 
@@ -44,7 +45,7 @@ You can install the dual_autodiff_x from within the `wheels` folder with:
 ```bash 
 pip install dual_autodiff_x_ <name_of_wheel>.whl
 ```
-
+---
 ## Tests 
 
 The file `test_dual.py` located in the `tests` folder contains a number of tests. To run tests, run the following command from the `dual_autodiff` package folder:
@@ -52,7 +53,7 @@ The file `test_dual.py` located in the `tests` folder contains a number of tests
 ```bash
 pytest -s tests/*
 ```
-
+---
 ## Documentation
 
 A Sphinx documentation was used to generate the documentation for the `dual_autodiff` package. After having installed the package, you can view documentation by unzipping the `build` folder inside the `dual_autodiff` package or by directly generating the html documentation page by running the following command from the `docs` folder (within `dual_autodiff` package folder): 
@@ -64,15 +65,17 @@ make html
 
 The documentation can be viewed by opening `docs/build/html/index.html` in a web browser. Additionally, Pandoc is required to convert `.ipynb` Jupyter notebooks into documentation format.
 
+---
 ## Tutorial notebook
 
 The `dual_autodiff.ipynb` Jupyter notebook located in `docs` folder, includes a tutorial on how to use the `dual_autodiff` package, as well as a comparison between the pure Python package and its Cythonized version `dual_autodiff_x`.
 
+---
 ## Analytical vs Numerical vs Automatic Differentiation
 
 The Jupyter notebook `diff_comparison.ipynb` located in `docs` folder provides a worked example on how to use dual numbers in automatic differentiation. It offers a comparison between the analytical derivative, numerical derivative, and automatic differentiation using dual numbers.
 
-
+---
 ## Usage
 The package allows you to define dual numbers and perform various operations. Here is an example:
 
@@ -89,6 +92,7 @@ print(x * y)      # Multiplication: Dual(real=6, dual=7)
 print(x.sin())    # Output: Dual(real=0.909297, dual=-0.416147)
 
 ```
+---
 ## Acknowledgments
 
 - This project was originally developed as part of a graduate-level research computing course at the University of Cambridge.
